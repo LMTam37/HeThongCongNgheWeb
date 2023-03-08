@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  color: brown;
+}
+
+.item {
+  display: flex;
+  color: brown;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.item .box {
+  border: 2px solid red;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.box img {
+  height: 40px;
+  width: 100px;
+}
+
+.item .fb:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+.item .microsf:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+.item .nextjmp:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+.item .ooyala:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+.item .plntir:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+.item .qra:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}
+.item .tripadvs:hover .box:before {
+  background: none;
+  border: 2px solid red;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  pointer-events: none;
+}

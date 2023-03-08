@@ -1,0 +1,39 @@
+.nav {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: green;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+li > .sub-nav {
+  display: none;
+}
+
+li:hover .sub-nav {
+  display: block;
+  position: absolute;
+  left: 200px;
+  background-color: green;
+  margin: 0;
+}
+li:hover ul li a:link {
+  display: block;
+  margin-left: -30px;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.float-right {
+    float: right;
+}
+
+.small-icon {
+    font-size: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title span {
+    color: #90c40c;
+}
+
+.navbar {
+    height: 38px;
+    background-color: #686464;
+}
+
+.navbar li {
+    line-height: 38px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.tutorial-navbar li:hover {
+    background-color: #ccc;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li:hover {
+    background-color: #90c40c;
+}
+
+.tutorial-navbar {
+    float: left;
+    line-height: 32px;
+    width: 200px;
+    padding-left: 20px;
+    background-color: #ccc;
+}
+
+.tutorial-navbar .tutorial-title {
+    font-size: 24px;
+}
+
+.tutorial-navbar li {
+    list-style: none;
+}
+
+.tutorial-navbar li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.tutorial-container {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.tutorial-container .advertise img {
+    width: 100%;
+    height: 100px;
+}
+
+.tutorial-container .content-title {
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.tutorial-container .nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: #90c40c;
+    font-size: 20px;
+}
+
+.tutorial-container .content{
+    display: flex;
+    align-items: center;
+}
